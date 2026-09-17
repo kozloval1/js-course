@@ -1,0 +1,28 @@
+:root {
+  --accent: #0e7c86;       
+  --ink: #1c1b1a;
+  --bg: #fbfaf7;
+  --space: 1rem;
+  --font: system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+header, main, footer {
+  padding: var(--space);
+}
+
+nav a {
+  margin-right: var(--space);
+  color: var(--accent);
+}
