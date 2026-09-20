@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -19,21 +19,118 @@
       <a href="#contact">My contact info</a>
     </nav>
 
-
     <main>
       <section id="about">
         <h2>About me</h2>
-        <p>The story from my childhood will be written here</p>
+        <p>
+          When I was a child, I was a very hard-working student. Maths was one
+          of my favorite subjects since the first years of my education, it was
+          easy for me and I genuinely enjoyed solving complex problems.
+        </p>
+        <p>
+          Once I reached 8th grade I got the opportunity to participate in
+          national competitions, this was the moment when I understood that my
+          ability to understand and solve tasks was useful. After a few pretty
+          successful rounds I wanted to make use of my skills and extend my
+          knowledge in technical domain
+        </p>
+        <p>
+          Since then, I got my interest in IT and I had a goal to become the
+          Software engineering student. A lot of tme had passed since that
+          moment, but I still want to improve and become better as an engineer
+          and improve my skills sith this course.
+        </p>
+        <h3>My current goals</h3>
+        <ul>
+          <li>Improve my web-dev skills</li>
+          <li>Study LLMs/AI deployment</li>
+          <li>Extend my skills range</li>
+        </ul>
+        <p>For this assignment I am following this routine</p>
+        <h3>My weekly focus</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Focus</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mon</td>
+              <td>Lectures / Recordings</td>
+            </tr>
+            <tr>
+              <td>Wed</td>
+              <td>Practice of new skills</td>
+            </tr>
+            <tr>
+              <td>Fri</td>
+              <td>
+                Review my work, improve the code and commit all the progress
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
       <section id="education">
         <h2>My education</h2>
-        <p>The history of my education will be written here</p>
+        <p>
+          I successfully graduated high school in 2023, where I have been
+          studying for the previous 11 years.
+        </p>
+        <p>
+          Later on I became a student at University of GOthenburg along with
+          Kristianstad University to take extra courses.
+        </p>
+        <p>
+          During my high school education I have done video and photo editing as
+          my additional courses in spare time
+        </p>
       </section>
 
       <section id="contact">
-        <h2>Contact</h2>
-        <p>Contact info will be here</p>
+        <h2>Contact me</h2>
+        <form
+          action="mailto:youremail@example.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+      <section id="work">
+        <h2>My work</h2>
+        <figure>
+          <img
+            src="images/workspace.jpg"
+            alt="My workspace with a laptop and PC where I study"
+            width="500"
+          />
+          <figcaption>Place where I study at home</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/lecture hall.jpg"
+            alt="Lecture hall in the university where I studied before"
+            width="500"
+          />
+          <figcaption>Lecture hall in the university</figcaption>
+        </figure>
+        <figure>
+          <img src="images/pet.jpg" alt="My pet" width="500" />
+          <figcaption>My beloved dog</figcaption>
+        </figure>
       </section>
     </main>
 
