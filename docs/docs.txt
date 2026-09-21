@@ -1,0 +1,5 @@
+My initial idea was to start with grade 3 requirements and improve the product to grade 4 and 5, however I have not received my seed even at the 21st of September, so I decided to stay with the most basic grade 3 requirements.
+The plan was to create a skeleton with placeholders that would match the basic structure of a web page and fill it during a few coding sessions showing the screenshots and logs of the development. 
+The 2 changes I made were the contact form and the css file structure. My first contact placeholder was very simple and did not match the required mailto form for the assignment requirements, so when doing this part of the assignment I rewrote it and made it sufficient. 
+The css skeleton was made for the grade 4/5 template, however due to reasons mentioned above I have decided to simplify it and keep it the way it is now.
+I did not encounter major technical challenges, I would mention that aligning table was the latest thing that I have completed, because finding correct css properties was a bit tough. Finding a proper place where the table was useful took some time for me as well.
